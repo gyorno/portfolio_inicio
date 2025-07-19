@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clone YouTube Simples</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Meu YouTube Clone</h1>
+    <input type="search" id="search" placeholder="Pesquisar vídeos..." />
+  </header>
+
+  <main>
+    <section id="video-player">
+      <iframe id="player" width="560" height="315" 
+        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="video-list">
+      <ul>
+        <li data-video="dQw4w9WgXcQ">Rick Astley - Never Gonna Give You Up</li>
+        <li data-video="3JZ_D3ELwOQ">Imagine Dragons - Believer</li>
+        <li data-video="L_jWHffIx5E">Smash Mouth - All Star</li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
